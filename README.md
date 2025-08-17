@@ -16,7 +16,7 @@ This configuration creates the following resources:
 
 ## Providers
 
-While the `hashicorp/azuread` Terraform provider is excellent for managing core Microsoft Entra ID objects like users, groups, and service principals, it does not currently support the creation and management of Azure AD Access Reviews. This is a known limitation, and there is an open feature request for this functionality on the provider's GitHub repository. For advanced Identity Governance features like Access Reviews, the recommended solution is to use the `Microsoft/msgraph` provider. This provider offers comprehensive coverage of the Microsoft Graph API, including the necessary resources for managing access reviews. In this example, I have demonstrated how to use the `msgraph` provider to create an access review.
+While the `hashicorp/azuread` Terraform provider is excellent for managing core Microsoft Entra ID objects like users, groups, and service principals, it does not currently support the creation and management of Azure AD Access Reviews. This is a known limitation, and there is an open feature request for this functionality on the provider's GitHub repository (issue #927). For advanced Identity Governance features like Access Reviews, the recommended solution is to use the `Microsoft/msgraph` provider. This provider offers comprehensive coverage of the Microsoft Graph API, including the necessary resources for managing access reviews. In this example, I have demonstrated how to use the `msgraph` provider to create an access review.
 
 ## Permissions Required
 
